@@ -56,3 +56,15 @@ $(".onlyno, .onlyno2").click(function() {
     $(".bothr").hide("");
     $(".yesr").hide("");
 });
+
+$(".playagain").click(function() {
+    $(".firstpage").show("");
+    $(".nor").hide("");
+    $(".bothr").hide("");
+    $(".yesr").hide("");
+    $(".noresponse").fadeOut("");
+    $(".yesresponse").hide("");
+    $(".question2").hide("");
+    $(".result").fadeOut("");
+    $(".finalstep").hide("");
+});
