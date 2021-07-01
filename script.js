@@ -46,8 +46,8 @@ $(".onlyyes, .onlyno").click(function() {
 });
 
 $(".onlyyes2, .onlyno2").click(function() {
-    $(".bothr").show("");
-    $(".yesr").hide("");
+    $(".yesr").show("");
+    $(".bothr").hide("");
     $(".nor").hide("");
 });
 
