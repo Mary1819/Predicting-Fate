@@ -33,25 +33,20 @@ $(".resultbutton").hover(function() {
     $(".finalstep").css("font-size", "25px");
 });
 
-$(".onlyyes, .onlyyes2").click(function() {
-    $(".yesr").show("");
-    $(".bothr").hide("");
-    $(".nor").hide("");
-});
-
-$(".onlyyes, .onlyno").click(function() {
+$(".onlyyes1, .onlyno2").click(function() { 
     $(".bothr").show("");
     $(".yesr").hide("");
     $(".nor").hide("");
 });
 
-$(".onlyyes2, .onlyno2").click(function() {
+$(".onlyyes2, onlyno1").click(function() {
     $(".bothr").show("");
     $(".yesr").hide("");
     $(".nor").hide("");
 });
 
-$(".onlyno, .onlyno2").click(function() {
+// good
+$(".onlyno1, .onlyno2").click(function() {
     $(".nor").show("");
     $(".bothr").hide("");
     $(".yesr").hide("");
