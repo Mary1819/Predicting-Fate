@@ -5,7 +5,7 @@ $("body").css("background-color", "#D9939F");
 $(".result").fadeOut("");
 $(".finalstep").hide("");
 
-$(".no").dblclick(function() {
+$(".no").click(function() {
     $(".firstpage").hide("");
     $(".noresponse").show("");
 });
@@ -33,13 +33,22 @@ $(".resultbutton").hover(function() {
     $(".finalstep").css("font-size", "25px");
 });
 
+// not working
+$(".onlyyes1, .onlyyes2").click(function() {
+    $(".yesr").show("");
+    $(".nor").hide("");
+    $(".bothr").hide("");
+});
+
+// not working
 $(".onlyyes1, .onlyno2").click(function() { 
     $(".bothr").show("");
     $(".yesr").hide("");
     $(".nor").hide("");
 });
 
-$(".onlyyes2, onlyno1").click(function() {
+// good
+$(".onlyno1, .onlyyes2").click(function() {
     $(".bothr").show("");
     $(".yesr").hide("");
     $(".nor").hide("");
